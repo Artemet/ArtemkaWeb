@@ -1,0 +1,45 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+.web_title{
+    height: 100vh;
+    background-image: url("../res/home_background.gif");
+}
+.line{
+    width: 40%;
+    height: 3px;
+    background-color: rgb(155, 155, 8);
+    margin: 25px auto;
+}
+.web_title h2{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+    opacity: 80%;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    margin: 0;
+    bottom: 50%;
+    align-items: center;
+    animation-direction: alternate-reverse;
+    animation-name: text_rgb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes text_rgb {
+    0%{
+        color: rgb(189, 19, 231);
+    }
+    50%{
+        color: rgb(155, 155, 8);
+    }
+    100%{
+        color: white;
+    }
+}
+/* Animation_parts */
