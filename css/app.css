@@ -5,9 +5,9 @@ body{
 }
 .web_title{
     height: 100vh;
-    background-image: url("../res/home_background.gif");
+    background-image: url("../res/home_background.png");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .line{
     width: 40%;
@@ -17,31 +17,19 @@ body{
 }
 .web_title h2{
     position: relative;
+    padding-left: 50px;
     top: 50%;
-    text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     letter-spacing: 5px;
     color: white;
     opacity: 80%;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
     text-transform: uppercase;
     margin: 0;
     bottom: 50%;
     align-items: center;
-    animation-direction: alternate-reverse;
-    animation-name: text_rgb;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
-@keyframes text_rgb {
-    0%{
-        color: rgb(189, 19, 231);
-    }
-    50%{
-        color: rgb(155, 155, 8);
-    }
-    100%{
-        color: white;
-    }
+.web_title h2 span{
+    color: rgb(155, 155, 8);
 }
 /* Animation_parts */

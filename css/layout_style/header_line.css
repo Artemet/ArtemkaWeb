@@ -9,11 +9,12 @@
     align-items: center;
     text-transform: uppercase;
     /* background-color: rgba(224, 19, 231, 0.159); */
-    background-color: rgb(37, 2, 39);
+    background-color: black;
+    border-bottom: 2px solid rgb(34, 33, 33);
 }
 .line_container .img{
     height: 50px;
-    padding-left: 10px;
+    padding-right: 40px;
 }
 .line_container .img img{
     height: 100%;
@@ -23,23 +24,26 @@
 .line_container .img img:hover{
     transform: rotate(25deg);
 }
-.line_container .links{
+.line_container .links_part{
     display: flex;
     padding-right: 30px;
     align-items: center;
 }
-.line_container .links a{
+.line_container .links_part a{
     padding-right: 10px;
     text-decoration: none;
     color: white;
     transition: 0.8s;
     opacity: 70%;
 }
-.line_container .links a:hover{
+.line_container .links_part a:hover{
     color: rgb(155, 155, 8);
 }
-.line_container h1{
-    color: white;
-    margin: 0;
-    opacity: 70%;
+.line_container .web_logo{
+    width: fit-content;
+}
+.line_container .web_logo img{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100px;
 }

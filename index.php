@@ -3,7 +3,7 @@
     include "layout/header_line.php";
 ?>
 <div class="web_title">
-    <h2>Artemka home page</h2>
+    <h2>ready <br> to work<span>.</span></h2>
 </div>
 <div class="about_me_container">
     <div class="line"></div>
