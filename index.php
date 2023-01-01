@@ -57,6 +57,61 @@
             <img src="res/green_forest.jpg" alt="">
         </div>
     </div>
+    <div class="line"></div>
+    <p class="up_work_link">for more information go on <a href="https://www.upwork.com/freelancers/~01517b1af176e5a167" title="my account">up work account</a></p>
+</div>
+<div class="ready_projects">
+    <h2>my ready projects</h2>
+    <div class="projects_cards">
+        <div class="project_card">
+            <div class="img_background">
+                <img src="res/cargox_web.png" alt="">
+            </div>
+            <div class="project_information">
+                <div class="information">
+                    <p class="project_name">cargox web</p>
+                    <div class="line"></div>
+                    <p class="made_time">2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="project_card">
+            <div class="img_background">
+                <img src="res/cargox_web.png" alt="">
+            </div>
+            <div class="project_information">
+                <div class="information">
+                    <p class="project_name">cargox web</p>
+                    <div class="line"></div>
+                    <p class="made_time">2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="project_card">
+            <div class="img_background">
+                <img src="res/cargox_web.png" alt="">
+            </div>
+            <div class="project_information">
+                <div class="information">
+                    <p class="project_name">cargox web</p>
+                    <div class="line"></div>
+                    <p class="made_time">2022</p>
+                </div>
+            </div>
+        </div>
+        <div class="project_card">
+            <div class="img_background">
+                <img src="res/cargox_web.png" alt="">
+            </div>
+            <div class="project_information">
+                <div class="information">
+                    <p class="project_name">cargox web</p>
+                    <div class="line"></div>
+                    <p class="made_time">2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php
     include "layout/footer.php";

@@ -50,3 +50,57 @@
 .work_pluses_container .plus_part img{
     width: 100%;
 }
+.work_pluses_container p.up_work_link{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.work_pluses_container p.up_work_link a{
+    color: rgb(155, 155, 8);
+}
+/*ready_projects*/
+.ready_projects h2{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.ready_projects .projects_cards{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ready_projects .project_card{
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+.ready_projects .project_card .information{
+    background-color: rgba(0, 0, 0, 0.46);
+}
+.ready_projects .project_card .project_information{
+    text-transform: uppercase;
+    text-align: center;
+    top: 200px;
+    position: absolute;
+    width: 100%;
+}
+.ready_projects .project_card p.project_name{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.ready_projects .project_card p.made_time{
+    color: rgb(155, 155, 8);
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.ready_projects .project_card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

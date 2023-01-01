@@ -6,6 +6,8 @@ body{
 .web_title{
     height: 100vh;
     background-image: url("../res/home_background.gif");
+    background-size: cover;
+    background-attachment: fixed;
 }
 .line{
     width: 40%;
