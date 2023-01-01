@@ -30,7 +30,7 @@
     </div>
     <div class="plus_part">
         <div class="img">
-            <img src="res/forest_cartoon.jpg" alt="">
+            <img src="res/forest_snow.jpg" alt="">
         </div>
         <div class="plus">
             <p class="number">02</p>
