@@ -5,9 +5,20 @@ body{
 }
 .web_title{
     height: 100vh;
-    background-image: url("../res/home_background.png");
     background-size: cover;
     /* background-attachment: fixed; */
+    animation-direction: alternate-reverse;
+    animation-name: home_background_change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes home_background_change {
+    0%{
+        background-image: url("../res/home_background2.png");
+    }
+    100%{
+        background-image: url("../res/home_background.png");
+    }
 }
 .line{
     width: 40%;
@@ -22,14 +33,42 @@ body{
     font-size: 70px;
     letter-spacing: 5px;
     color: white;
-    opacity: 80%;
     /* font-family: 'Lobster', cursive; */
     text-transform: uppercase;
     margin: 0;
     bottom: 50%;
     align-items: center;
 }
+.web_title .double_information{
+    color: white;
+    position: absolute;
+    width: 320px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    bottom: 0;
+}
+.web_title .double_information .line{
+    margin: 0;
+}
 .web_title h2 span{
     color: rgb(155, 155, 8);
+}
+.web_title .network_line{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.web_title .network_line img{
+    height: 30px;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.web_title .network_line img:hover{
+    opacity: 50%;
+    transform: rotate(20deg);
 }
 /* Animation_parts */

@@ -18,11 +18,19 @@
 }
 .line_container .img img{
     height: 100%;
-    opacity: 70%;
     transition: 0.8s;
 }
 .line_container .img img:hover{
     transform: rotate(25deg);
+}
+.line_container .links{
+    display: flex;
+    align-items: center;
+}
+.line_container .links a{
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
 }
 .line_container .links_part{
     display: flex;
@@ -34,7 +42,9 @@
     text-decoration: none;
     color: white;
     transition: 0.8s;
-    opacity: 70%;
+}
+.line_container .links_part a.thirst_link{
+    color: rgb(155, 155, 8);
 }
 .line_container .links_part a:hover{
     color: rgb(155, 155, 8);
