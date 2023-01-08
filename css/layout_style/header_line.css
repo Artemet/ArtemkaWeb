@@ -59,7 +59,7 @@
 }
 /* line_sub */
 .line_sub{
-    /* display: flex; */
+    /*display: flex;*/
     display: none;
 }
 .line_sub .sub_part{

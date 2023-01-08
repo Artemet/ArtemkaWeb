@@ -61,46 +61,105 @@
     color: rgb(155, 155, 8);
 }
 /*ready_projects*/
+.ready_projects{
+    padding-bottom: 100px;
+}
 .ready_projects h2{
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 50px;
     text-align: center;
     color: white;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 .ready_projects .projects_cards{
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.ready_projects .line{
+    margin-bottom: 50px;
+}
 .ready_projects .project_card{
-    position: relative;
     width: 300px;
-    height: 500px;
+    background-image: url("../res/forest.gif");
+    border-radius: 10px;
+    background-size: contain;
+    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
 }
 .ready_projects .project_card .information{
     background-color: rgba(0, 0, 0, 0.46);
+    position: relative;
+    bottom: 0;
 }
 .ready_projects .project_card .project_information{
     text-transform: uppercase;
     text-align: center;
     top: 200px;
-    position: absolute;
     width: 100%;
+}
+.ready_projects .project_card a{
+    text-decoration: none;
+    transition: 0.5s;
+    text-decoration: white;
+}
+.ready_projects .project_card a:hover{
+    text-decoration: underline white;
 }
 .ready_projects .project_card p.project_name{
     color: white;
     font-weight: 700;
     font-size: 20px;
+    transition: 0.5s;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ready_projects .project_card p.project_name:hover{
+    color: rgb(155, 155, 8);
 }
 .ready_projects .project_card p.made_time{
     color: rgb(155, 155, 8);
     font-weight: 500;
     text-decoration: underline;
     font-size: 20px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.ready_projects .project_card img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
+/*reviews_container*/
+.reviews_container{
+    margin-bottom: 100px;
+}
+.reviews_container h2{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.reviews_container .no_reviews{
+    background-color: #1A6125;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.reviews_container .no_reviews p{
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.reviews_container .no_reviews a{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.6s;
+    color: rgb(155, 155, 8);
+}
+.reviews_container .no_reviews a:hover{
+    opacity: 60%;
 }

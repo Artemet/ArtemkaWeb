@@ -78,55 +78,52 @@ include "layout/header_line.php";
     </div>
     <div class="ready_projects">
         <h2>my ready projects</h2>
+        <div class="line"></div>
         <div class="projects_cards">
             <div class="project_card">
-                <div class="img_background">
-                    <img src="res/cargox_web.png" alt="">
-                </div>
                 <div class="project_information">
                     <div class="information">
-                        <p class="project_name">cargox web</p>
+                        <a href="https://bosfor-avrasya.com.tr/"><p class="project_name">cargox web</p></a>
                         <div class="line"></div>
                         <p class="made_time">2022</p>
                     </div>
                 </div>
             </div>
             <div class="project_card">
-                <div class="img_background">
-                    <img src="res/cargox_web.png" alt="">
-                </div>
                 <div class="project_information">
                     <div class="information">
-                        <p class="project_name">cargox web</p>
+                        <a href="http://francescofranchising.com/"><p class="project_name">Bright 99</p></a>
                         <div class="line"></div>
                         <p class="made_time">2022</p>
                     </div>
                 </div>
             </div>
             <div class="project_card">
-                <div class="img_background">
-                    <img src="res/cargox_web.png" alt="">
-                </div>
                 <div class="project_information">
                     <div class="information">
-                        <p class="project_name">cargox web</p>
+                        <a href="https://francesco.ru/"><p class="project_name">Francesco Donni</p></a>
                         <div class="line"></div>
-                        <p class="made_time">2022</p>
+                        <p class="made_time">2021</p>
                     </div>
                 </div>
             </div>
             <div class="project_card">
-                <div class="img_background">
-                    <img src="res/cargox_web.png" alt="">
-                </div>
                 <div class="project_information">
                     <div class="information">
-                        <p class="project_name">cargox web</p>
+                        <a href=""><p class="project_name">Artemka Web</p></a>
                         <div class="line"></div>
-                        <p class="made_time">2022</p>
+                        <p class="made_time">2023</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="reviews_container">
+        <h2>reviews about my work</h2>
+        <div class="line"></div>
+        <div class="no_reviews">
+            <p>no reviews at the moment</p>
+            <a href="" title="thank you">make a review</a>
         </div>
     </div>
 <?php
