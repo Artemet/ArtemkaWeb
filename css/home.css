@@ -122,7 +122,6 @@
 .ready_projects .project_card p.made_time{
     color: rgb(155, 155, 8);
     font-weight: 500;
-    text-decoration: underline;
     font-size: 20px;
     margin: 0;
     padding-top: 20px;
@@ -139,7 +138,7 @@
     text-align: center;
 }
 .reviews_container .no_reviews{
-    background-color: #1A6125;
+    background-color: #06320c;
     border-radius: 10px;
     padding: 20px;
     margin: auto;
@@ -162,4 +161,61 @@
 }
 .reviews_container .no_reviews a:hover{
     opacity: 60%;
+}
+/* knowledge_container */
+.knowledge{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.knowledge_container{
+    text-transform: uppercase;
+    padding: 30px;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: #06320ca3;
+}
+.knowledge_container p.see_more{
+    text-decoration: underline;
+    color: rgb(155, 155, 8);
+    transition: 0.5s;
+}
+.knowledge_container p.see_more:hover{
+    color: white;
+}
+.knowledge_container .top_part{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(155, 155, 8);
+}
+.knowledge_container .top_part img{
+    height: 50px;
+}
+.knowledge_container .lower_part{
+    background-color: #06320cd4;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.knowledge_container .comment_information{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 2px solid rgb(155, 155, 8);
+}
+.knowledge_container .comment_information .knowledge_resolt{
+    color: rgb(155, 155, 8);
+}
+.knowledge .container_information h2{
+    color: white;
+    text-transform: uppercase;
+}
+.knowledge .container_information .line{
+    margin: 0;
+}
+.knowledge .container_information p{
+    color: white;
+    padding-right: 200px;
+    text-transform: uppercase;
+    line-height: 30px;
 }
