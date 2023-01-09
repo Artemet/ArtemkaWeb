@@ -120,41 +120,91 @@ include "layout/header_line.php";
     </div>
     <div class="reviews_container">
         <h2>reviews about my work</h2>
-        <div class="line"></div>
         <div class="no_reviews">
             <p>no reviews at the moment</p>
             <a href="" title="thank you">make a review</a>
         </div>
     </div>
+    <div class="line"></div>
     <div class="knowledge">
-        <div class="knowledge_container">
-            <div>
-                <div class="top_part">
-                    <div class="img">
-                        <img src="res/php.png" alt="">
-                    </div>
-                </div>
-                <div class="lower_part">
-                    <div class="comment_information">
-                        <div><p>Artems comment:</p></div>
-                        <div>
-                            <div><p class="knowledge_text">Assessment <br> of knowledge:</p></div>
-                            <div><p class="knowledge_resolt">pro</p></div>
+        <div class="knowledges">
+            <div class="knowledge_container">
+                <div>
+                    <div>
+                        <div class="top_part">
+                            <div class="img">
+                                <img src="res/php.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="comment">
-                        <p>I really like the php language, I developed most of the sites on it, because it is very convenient.</p>
+                        <div class="lower_part">
+                            <div class="comment_information">
+                                <div><p>Artems comment:</p></div>
+                                <div>
+                                    <div><p class="knowledge_text">Assessment <br> of knowledge:</p></div>
+                                    <div><p class="knowledge_resolt">pro</p></div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <p>I really like the php language, I developed most of the sites on it, because it is very convenient.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <p class="see_more">see more</p>
+            <div class="knowledge_container java_script">
+                <div>
+                    <div>
+                        <div class="top_part">
+                            <div class="img">
+                                <img src="res/js.png" alt="">
+                            </div>
+                        </div>
+                        <div class="lower_part">
+                            <div class="comment_information">
+                                <div><p>Artems comment:</p></div>
+                                <div>
+                                    <div><p class="knowledge_text">Assessment <br> of knowledge:</p></div>
+                                    <div><p class="knowledge_resolt">pro</p></div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <p>I really like the java script language, I developed most of the sites on it, because it is very convenient.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="knowledge_container python">
+                <div>
+                    <div>
+                        <div class="top_part">
+                            <div class="img">
+                                <img src="res/python.png" alt="">
+                            </div>
+                        </div>
+                        <div class="lower_part">
+                            <div class="comment_information">
+                                <div><p>Artems comment:</p></div>
+                                <div>
+                                    <div><p class="knowledge_text">Assessment <br> of knowledge:</p></div>
+                                    <div><p class="knowledge_resolt">normal</p></div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <p>on python most often I write telegram bots. I like this language.
+                                    It is easy to learn and to code on it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container_information">
             <h2>knowledge</h2>
             <div class="line"></div>
-            <p>in this dusty you can see how programming 
+            <p>in this dusty you can see how programming
                 languages ​​i know and what i think about my experience</p>
-        </div>  
+        </div>
     </div>
 <?php
 include "layout/footer.php";
