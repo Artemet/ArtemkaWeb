@@ -203,7 +203,45 @@ include "layout/header_line.php";
             <h2>knowledge</h2>
             <div class="line"></div>
             <p>in this dusty you can see how programming
-                languages ​​i know and what i think about my experience</p>
+                languages i know and what i think about my experience</p>
+        </div>
+    </div>
+    <div class="instraction_container">
+        <h2>instracrion</h2>
+        <p class="question">How to place an order to Artemka?</p>
+        <div class="line"></div>
+        <div class="instraction_part">
+            <div>
+                <b class="number">01</b>
+                <div class="img">
+                    <img src="res/wiffleGif.gif" alt="">
+                </div>
+            </div>
+            <div>
+                <p>look at the portfolio.</p>
+            </div>
+        </div>
+        <div class="instraction_part">
+            <div>
+                <b class="number">02</b>
+                <div class="img">
+                    <img src="res/white_circle_gif.gif" alt="">
+                </div>
+            </div>
+            <div>
+                <p>look at the portfolio.</p>
+            </div>
+        </div>
+        <div class="instraction_part">
+            <div>
+                <b class="number">03</b>
+                <div class="img">
+                    <img src="res/gif_circle.gif" alt="">
+                </div>
+            </div>
+            <div>
+                <p>look at the portfolio.</p>
+            </div>
         </div>
     </div>
 <?php
